@@ -1,0 +1,331 @@
+@charset "UTF-8";
+
+body{
+  /* background: url(img/fundo00.jpg) no-repeat ; */
+  /* padding-top: 60px; */
+  background: #CBD9EA;
+} 
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+h1{
+    text-align: center;
+    color:rgb(19, 16, 216);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    text-align: center;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.cards{
+  margin-left: 20px;
+  background: #CBD9EA;
+ 
+}
+
+.opacidade {
+  opacity: 70%;
+}
+
+
+.card img {
+  margin-top: 15px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 130px;
+}
+
+h2{
+    text-align: center;
+}
+
+.topico{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.inputar{
+    visibility: collapse;
+    visibility: hidden;
+}
+
+h4{
+    color:rgb(20, 46, 194);
+   text-align: center;
+   text-decoration: underline;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+
+  
+  /* Footer */
+  
+  #contact-area {
+    text-align: center;
+  }
+  
+  .contact-box {
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3EC1D5;
+  }
+
+    
+  .contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-box p {
+    font-size: 16px;
+  }
+  
+  .contact-tile {
+    font-weight: bold;
+    color: #3EC1D5;
+  }
+  
+  #msg-box p {
+    font-size: 22px;
+  }
+  
+  #contact-form input[type="text"], #contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+  }
+  
+  #contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+  }
+  
+  #contact-form .main-btn:hover {
+    color: #3EC1D5;
+  }
+  
+  /* Copy */
+  
+  #copy-area {
+    background-color: #F1F1F1;
+  }
+  
+  #copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  #copy-area .container p {
+    margin-bottom: 0;
+  }
+  
+  #copy-area .container a {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  #copy-area .container a:hover {
+    text-decoration: none;
+    color: #3EC1D5;
+  }
+  
+  /* responsive */
+  @media(max-width: 768px) {
+    
+    /* geral*/ 
+    .container {
+      padding: 20px 0;
+    }
+    
+    /* slider */
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+      height: auto;
+    }
+  
+    #mainSlider .carousel-caption h2 {
+      font-size: 28px;
+    }
+  
+    #mainSlider .carousel-caption p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+  
+    .carousel-caption {
+      left: 10%;
+      right: 10%;
+    }
+    
+    /* about */
+    #about-area img {
+      margin-top: 100px;
+    }
+    
+    /* data */
+    .circle-box div {
+      padding: 0 10px;
+    }
+  
+    #data-area p {
+      font-size: 16px;
+    }
+    
+    /* team */
+    .card-title {
+      font-size: 14px;
+    }
+  
+    .card-text {
+      font-size: 12px;
+    }
+  
+    /* apply */
+    #apply-area .apply-box {
+      padding: 50px 25px;
+    }
+  
+    /* news */
+    #news-area p {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    #email-input {
+      width: 70%;
+    }
+  
+    #call-area {
+      margin-top: 30px;
+    }
+  
+    #call-area .container {
+      padding: 30px;
+    }
+  
+    #call-area p, #call-area #call-btn {
+      font-size: 16px;
+    }
+  
+  }
+  
+  
+  @media(max-width: 425px) {
+  
+    /* slider */
+    #mainSlider {
+      margin-top: 90px;
+    }
+  
+    #mainSlider .carousel-caption {
+      top: 5%;
+    }
+  
+    #mainSlider .carousel-caption h2 {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+  
+    #mainSlider .carousel-caption p {
+      display: none;
+    }
+  
+    .carousel-caption .main-btn {
+      
+      font-size: 14px;
+    }
+  
+    /* about */
+    .main-title {
+      font-size: 30px;
+    }
+  
+    #about-area img {
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+  
+    /* data */
+    .circle-box {
+      width: 50%;
+    }
+  
+    #team-area .col-md-3 {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+  
+    /* apply */
+    #apply-area {
+      height: auto;
+    }
+  
+    #company-img {
+      display: none;
+    }
+  
+    /* filter */
+    #portfolio-area .filter-btn {
+      margin-bottom: 20px;
+    }
+  
+    .project-box {
+      width: 50%;
+    }
+  
+    /* news */
+    #news-area .main-title {
+      font-size: 24px;
+    }
+  
+    #news-area p {
+      font-size: 16px;
+    }
+  
+    #email-input {
+      width: 80%;
+    }
+  
+    #call-area p, #call-area #call-btn {
+      font-size: 14px;
+      letter-spacing: 0;
+    }
+  
+    #call-area p, #call-area #call-btn {
+      margin: 0;
+      width: 50%;
+    }
+  
+    /* contact */
+    .contact-box {
+      border: none;
+      margin-bottom: 0;
+    }
+
+    iframe {
+      width: 100%;
+      height: 420px;
+    }
+    
+    textarea.form-control {
+      height: 90px;
+      resize: none;
+    }
+    
+    form, .alert {
+      margin-bottom: 0;
+    }
+  
+  }
